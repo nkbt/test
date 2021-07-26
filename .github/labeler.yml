@@ -1,0 +1,2 @@
+dev-frontend:
+  - any: [ 'react-ui/**/*', 'app/assets/javascripts/**/*' ]
