@@ -1,2 +1,2 @@
-dev-frontend:
+enhancement:
   - any: [ 'react-ui/**/*', 'app/assets/javascripts/**/*' ]
