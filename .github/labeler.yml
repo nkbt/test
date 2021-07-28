@@ -1,5 +1,6 @@
 enhancement:
-  - "react-ui/**/*.*"
-  - "app/assets/javascripts/**/*.*"
-  - "!react-ui/lib/graphql/__cache__/*.json"
+  - any:
+    - 'react-ui/**/*.*'
+    - 'app/assets/javascripts/**/*.*'
+    - '!react-ui/lib/graphql/__cache__/*.json'
 
