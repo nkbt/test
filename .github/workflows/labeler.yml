@@ -8,5 +8,6 @@ jobs:
     steps:
       - uses: actions/labeler@v3
         with:
-#          configuration-path: .github/labeler.yml
+          configuration-path: .github/labeler.yml
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          sync-labels: ""
