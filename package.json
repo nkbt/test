@@ -1,0 +1,17 @@
+{
+  "name": "nkbt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "publish:release": "lerna publish --force-publish",
+    "publish:alpha": "lerna publish --force-publish --canary",
+    "postpublish": "yarn workspaces foreach --verbose run my-extra-publish"
+  },
+  "devDependencies": {
+    "lerna": "6.5.1"
+  },
+  "workspaces": [
+    "lerna/*"
+  ],
+  "packageManager": "yarn@3.4.1"
+}

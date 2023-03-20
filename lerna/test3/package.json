@@ -1,0 +1,15 @@
+{
+  "name": "@nkbt/lerna-test3",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "my-post-publish": "echo POST"
+  },
+  "dependencies": {
+    "@nkbt/lerna-test1": "workspace:*",
+    "@nkbt/lerna-test2": "workspace:*"
+  }
+}
