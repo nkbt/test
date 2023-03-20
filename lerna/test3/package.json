@@ -6,7 +6,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "my-post-publish": "echo POST"
+    "extra-publish": "echo POST"
   },
   "dependencies": {
     "@nkbt/lerna-test1": "workspace:*",
