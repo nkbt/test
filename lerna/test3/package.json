@@ -1,6 +1,6 @@
 {
   "name": "@nkbt/lerna-test3",
-  "version": "1.0.1",
+  "version": "1.0.1-alpha.7bbf5f5",
   "publishConfig": {
     "access": "public"
   },
