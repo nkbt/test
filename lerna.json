@@ -5,5 +5,5 @@
   "exact": true,
   "changelog": false,
   "private": false,
-  "push": false
+  "push": true
 }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "publish:release": "lerna publish --force-publish",
-    "publish:alpha": "lerna publish --force-publish --canary",
+    "publish:alpha": "lerna publish --force-publish --dist-tag next $(node -p 'require(`./lerna.json`).version')-alpha.$(git log --pretty=format:%h -1)",
     "postpublish": "yarn workspaces foreach --verbose run extra-publish"
   },
   "devDependencies": {
