@@ -6,7 +6,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "extra-publish": "echo POST"
+    "postpack": "node -p 'require(`./package.json`)'"
   },
   "dependencies": {
     "@nkbt/lerna-test1": "workspace:*"

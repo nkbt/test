@@ -6,6 +6,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "extra-publish": "echo POST"
+    "postpack": "node -p 'require(`./package.json`)'"
   }
 }
